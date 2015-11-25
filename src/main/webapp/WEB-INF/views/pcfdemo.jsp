@@ -109,7 +109,9 @@
 
 	<div id="maincontent" style="overflow-y: scroll;">
 		<div align="center"> 
+		<!--	
         <small>Instance hosted at &nbsp;<%=request.getLocalAddr() %>:<%=request.getLocalPort() %></small><br>
+    	-->
 		<c:choose>
 			<c:when test="${rabbitURI != null}">
 				<small>Data being streamed from RabbitMQ</small>				
